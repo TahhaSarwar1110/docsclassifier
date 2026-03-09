@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# ML models
+models/
+trained_classifier/
+*.gguf
+*.safetensors

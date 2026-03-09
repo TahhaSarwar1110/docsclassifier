@@ -1,0 +1,142 @@
+{
+  "invoice_1.pdf": {
+    "class": "Invoice",
+    "confidence": 0.654,
+    "invoice_number": "1001",
+    "date": "2025-06-16",
+    "company": "Pioneer Ltd",
+    "total_amount": "2073.00"
+  },
+  "invoice_2.pdf": {
+    "class": "Invoice",
+    "confidence": 0.65,
+    "invoice_number": "1002",
+    "date": "2025-03-25",
+    "company": "Pioneer Ltd",
+    "total_amount": "2996.00"
+  },
+  "invoice_3.pdf": {
+    "class": "Invoice",
+    "confidence": 0.662,
+    "invoice_number": "1003",
+    "date": "2025-06-24",
+    "company": "GlobalTech",
+    "total_amount": "4806.00"
+  },
+  "invoice_4.pdf": {
+    "class": "Invoice",
+    "confidence": 0.656,
+    "invoice_number": "1004",
+    "date": "2025-03-26",
+    "company": "Acme Corp",
+    "total_amount": "1955.00"
+  },
+  "invoice_5.pdf": {
+    "class": "Invoice",
+    "confidence": 0.658,
+    "invoice_number": "1005",
+    "date": "2025-06-10",
+    "company": "Bright Future LLC",
+    "total_amount": "3612.00"
+  },
+  "other_1.pdf": {
+    "class": "Other",
+    "confidence": 0.556
+  },
+  "other_2.pdf": {
+    "class": "Other",
+    "confidence": 0.56
+  },
+  "other_3.pdf": {
+    "class": "Other",
+    "confidence": 0.558
+  },
+  "resume_1.pdf": {
+    "class": "Resume",
+    "confidence": 0.645,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1-555-799-6125",
+    "experience_years": 5
+  },
+  "resume_2.pdf": {
+    "class": "Resume",
+    "confidence": 0.636,
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "phone": "+1-555-486-5877",
+    "experience_years": 1
+  },
+  "resume_3.pdf": {
+    "class": "Resume",
+    "confidence": 0.644,
+    "name": "Ali Khan",
+    "email": "ali.khan@example.com",
+    "phone": "+1-555-980-6266",
+    "experience_years": 4
+  },
+  "resume_4.pdf": {
+    "class": "Resume",
+    "confidence": 0.641,
+    "name": "Maria Garcia",
+    "email": "maria.garcia@example.com",
+    "phone": "+1-555-233-1405",
+    "experience_years": 1
+  },
+  "resume_5.pdf": {
+    "class": "Resume",
+    "confidence": 0.642,
+    "name": "David Lee",
+    "email": "david.lee@example.com",
+    "phone": "+1-555-305-2284",
+    "experience_years": 2
+  },
+  "unclassifiable_1.pdf": {
+    "class": "Unclassifiable",
+    "confidence": 0.0
+  },
+  "unclassifiable_2.pdf": {
+    "class": "Unclassifiable",
+    "confidence": 0.0
+  },
+  "utilitybill_1.pdf": {
+    "class": "Utility Bill",
+    "confidence": 0.784,
+    "account_number": "ACC-49575",
+    "date": "2025-05-24",
+    "usage_kwh": "406",
+    "amount_due": "193.00"
+  },
+  "utilitybill_2.pdf": {
+    "class": "Utility Bill",
+    "confidence": 0.779,
+    "account_number": "ACC-55530",
+    "date": "2025-02-12",
+    "usage_kwh": "855",
+    "amount_due": "622.00"
+  },
+  "utilitybill_3.pdf": {
+    "class": "Utility Bill",
+    "confidence": 0.784,
+    "account_number": "ACC-33934",
+    "date": "2025-06-12",
+    "usage_kwh": "558",
+    "amount_due": "345.00"
+  },
+  "utilitybill_4.pdf": {
+    "class": "Utility Bill",
+    "confidence": 0.778,
+    "account_number": "ACC-77424",
+    "date": "2025-04-25",
+    "usage_kwh": "384",
+    "amount_due": "402.00"
+  },
+  "utilitybill_5.pdf": {
+    "class": "Utility Bill",
+    "confidence": 0.726,
+    "account_number": "ACC-41029",
+    "date": "2025-06-11",
+    "usage_kwh": "871",
+    "amount_due": "127.00"
+  }
+}

@@ -1,0 +1,12 @@
+transformers
+tensorflow
+sentence-transformers
+faiss-cpu
+langchain
+langchain-community
+pymupdf
+numpy
+scipy
+scikit-learn
+torch
+chromadb
