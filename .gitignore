@@ -1,12 +1,64 @@
-# Python cache
+# -------------------------
+# Python
+# -------------------------
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Virtual environment
+# -------------------------
+# Virtual Environment
+# -------------------------
 venv/
+env/
+.venv/
 
-# ML models
+# -------------------------
+# ML Models
+# -------------------------
 models/
 trained_classifier/
 *.gguf
 *.safetensors
+*.pt
+*.pth
+
+# -------------------------
+# Vector Databases
+# -------------------------
+chroma_db/
+
+# -------------------------
+# Serialized Objects
+# -------------------------
+*.pkl
+*.joblib
+
+# -------------------------
+# Runtime Output
+# -------------------------
+output.json
+*.log
+
+# -------------------------
+# Temporary / Cache
+# -------------------------
+.cache/
+tmp/
+temp/
+
+# -------------------------
+# System Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Kiro Spec Files
+# -------------------------
+.kiro/
+
+# -------------------------
+# Python Environment Files
+# -------------------------
+.env
+.env.*
